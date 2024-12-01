@@ -1,0 +1,43 @@
+/* header */
+header {
+    grid-template-columns: 51px auto 51px;
+    border-bottom: 1px solid #eee;
+    
+}
+
+
+
+#headerWrapper {
+    header {
+        padding: 2rem $gutter;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+
+/* nav stuff */
+
+#cards {
+    section {
+      
+        grid-template-areas: 
+            "name name"
+            "photo address"
+            "photo phone"; 
+
+        column-gap: 8px; 
+        img{
+            width: 100%;
+            height: auto;
+            
+        }
+    }
+
+    
+}
+
+
+// end cards parents

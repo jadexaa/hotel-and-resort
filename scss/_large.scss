@@ -1,0 +1,45 @@
+header, main {
+    max-width: 1500px;
+    margin: auto;
+}
+
+
+//nav stuff
+#hamburgerBtn {display: none;}
+nav{ 
+    position: static;
+    transform: translateX(0);
+    width: auto;
+    div{display:none;}
+    ul {
+        display: flex;
+        margin-left: 2%;
+        border-left: 1px solid rgba(0,0,0,0.2);
+    }
+    ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.2);
+    }
+}
+
+
+
+
+header {
+    height: 175px;
+    grid-template-columns:  auto auto;
+    border-bottom: none;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    
+
+    
+}
+
+
+
+
